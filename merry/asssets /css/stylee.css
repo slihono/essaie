@@ -125,3 +125,27 @@ p.dark span {
   color: white;
   mix-blend-mode: darken;
 }
+
+/* Mobile responsive rules */
+@media (max-width: 768px) {
+  .multiple-items {
+    width: 95%;
+    margin: 20px auto;
+  }
+  .multiple-items div {
+    font-size: 22px;
+    padding: 10px;
+    margin: 12px auto;
+    max-width: 100%;
+  }
+  .container { padding: 2rem; }
+  p { font-size: 2.4rem; }
+  img { max-width: 100%; height: auto; }
+}
+
+@media (max-width: 420px) {
+  p { font-size: 1.6rem; }
+  .multiple-items div { font-size: 18px; }
+}
+
+

@@ -72,3 +72,40 @@ width: 160px;
 margin-top: 60px;
 margin-left: 16px;
 }
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  #card {
+    position: relative;
+    top: 20px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    margin: 0 auto;
+  }
+  #card .heart {
+    width: 45%;
+    height: 140px;
+    float: none;
+    margin: 0 auto 12px;
+    display: block;
+  }
+  #card #half2 {
+    margin-top: -120px;
+    margin-left: -40px;
+  }
+  #card #message {
+    float: none;
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    padding: 12px;
+    border-radius: 12px;
+  }
+  #card #message h2 {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 0;
+  }
+}
